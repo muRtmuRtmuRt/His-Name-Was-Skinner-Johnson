@@ -1,0 +1,100 @@
+Recommended to do all the minuses from the previous sets first, and keep track of what loops in the overlapping structure so not to subtract the same one twice
+
+Review cases where an arbitrary cycle in the structure ends up with four or more cycle-connections before looping after a new cycle is added when it did not have that
+many from before as different orderings of paths will be available
+
+Review cases where interconnected chains of cycles who loops cross over an odd number of times and has cycles create a path between them with no single cycle-connection all
+paths go through as I assumed that their cycle-connections could freely glide over one another
+
+Redrawing by uncrossing the cyclical paths on the singular cycle-connection cannot actually be done as they deep inside must still connect on the same hypercubes of the GL,
+and whether the rest of the two cycles internal structure also moves across the cycle-connection might affect its properties,
+and in higher harmonic levels of self-resonant standing patterns two crossings going in the same direction
+will no longer necessarily cancel each other out if they cannot move through each other
+
+Regular occurrences of loopage back to a previously visited cycle, and multiple loops between the same cycles will occur irl
+
+
+Recursively give cycles numerical characteristics for:
+   how many cycles they connect to
+   how many loops they have
+   the orderings of these
+   and potentially the previous ¨cycle-type areas¨
+
+Reduce areas of equal characteristics, with the inner as one or a few cycles depending on the size, and the outer as a transitional border
+
+Redraw all of this with hyperspheres of backloopage-potential, potentially forged through 3CLSGL,
+where if a sphere is connected to another it changes the probability for another to connect as there is a different backloopage-potential then,
+and the distribution is different if multiple spheres try to connect at the same time
+
+Realize hypersphere-3CLS-structures with many overlaps to be the quantum-field, and few to be the quantum-wave
+
+Revisualize as categories of reprogrammable building block functions, call it inflation and let oddities grow into amino acids
+
+         -Rhul BDbowl
+
+
+Rationalizing that all spheres in a hypersphere are distributed approximately uniformly through GL{28, 0, 1},
+and assuming one combination when multiple hyperspheres connect on the same sphere, and only one sphere per hypersphere connecting between the same hyperspheres,
+with indicating whether more than two hyperspheres [cannot] & [can] connect on the same sphere as such,
+also let n denote spheres: lim(n->∞), let the areal of a cross-section of n be equal to: ((9/8)^(1/3)*(π/2)^(1/3)*(n)^(2/3)) = A,
+let the number of ways a hypersphere can connect to n be equal to: ((28+28-1)C(28)-1=3.824.345.300.380.219) = m, and count combinations of hyperspheres: a(hyperspheres)
+
+Recursion without field:
+         must connect:
+   [1, 1, 2, 6, …, ∞, …,
+   (( (28^3)*(m+2)C(3) ) + ( 28*(27*(m+1)C(2) + (27^2)*(m+2)C(3)) ) + ( ( 27*(m)C(1) + 26*(m)C(1) + (27^2)*(m+1)C(2) + 27*26*(m+1)C(2) + (27^2)*26*(m+2)C(3) ) + ( 26*(m)C(1) + (26^2)*(m+1)C(2) + (26^3)*(m+2)C(3) ) )) *n -A,
+   (( (28^2)*(m+1)C(2) ) + ( 27*(m)C(1) + (27^2)*(m+1)C(2) )) *n -A, 28*(m)C(1) *n -A, 1]
+   & [1, 1, 4, 20, …, ∞, …, ((r=1)(28)Σ(27+r-1)C(r))*(m+1-1)C(1) *n -A, 1]
+         can connect:
+   [1, 2, 4, 11, …, ∞, …,
+   (( (28^3)*(m+2)C(3) ) + ( 28*(27*(m+1)C(2) + (27^2)*(m+2)C(3)) ) + ( ( 27*(m)C(1) + 26*(m)C(1) + (27^2)*(m+1)C(2) + 27*26*(m+1)C(2) + (27^2)*26*(m+2)C(3) ) + ( 26*(m)C(1) + (26^2)*(m+1)C(2) + (26^3)*(m+2)C(3) ) )) *n,
+   (( (28^2)*(m+1)C(2) ) + ( 27*(m)C(1) + (27^2)*(m+1)C(2) )) *n, 28*(m)C(1) *n, 1]
+   & [1, 2, 6, 27, …, ∞, …, ((r=1)(28)Σ(26+r)C(r))*(m)C(1) *n, 1]
+         cannot connect:
+   [1, 1, …, 1, 1, a(n/29)=>1]
+         cannot connect and one sphere in between:
+   [1, 1, …, 1, 1, a(n/(29+756))=>1, ∞, ∞, …, ∞, ∞, a(n/(29+27))=>1]
+         cannot connect and two spheres in between:
+   [1, 1, …, 1, 1, a(n/(29+756+20412))=>1, ∞, ∞, …, ∞, ∞ a(n/(29+27+27))=>1]
+
+Recursion with binary field:
+         must connect:
+   [1, 1, 2, …, ∞, …,
+   (( (28^3)*(m+2)C(3) ) + ( 28*(27*(m+1)C(2) + (27^2)*(m+2)C(3)) ) + ( ( 27*(m)C(1) + 26*(m)C(1) + (27^2)*(m+1)C(2) + 27*26*(m+1)C(2) + (27^2)*26*(m+2)C(3) ) + ( 26*(m)C(1) + (26^2)*(m+1)C(2) + (26^3)*(m+2)C(3) ) )) *n -A,
+   (( (28^2)*(m+1)C(2) ) + ( 27*(m)C(1) + (27^2)*(m+1)C(2) )) *n -A, 28*(m)C(1) *n -A, 1, 0]
+   & [1, 1, 4, …, ∞, …, ((r=1)(28)Σ(26+r)C(r))*(m)C(1) *n -A, 1, 0]
+         can connect:
+   [1, 2+m, …, ∞, …,
+   (( (28^3)*(m+2)C(3) ) + ( 28*(27*(m+1)C(2) + (27^2)*(m+2)C(3)) ) + ( ( 27*(m)C(1) + 26*(m)C(1) + (27^2)*(m+1)C(2) + 27*26*(m+1)C(2) + (27^2)*26*(m+2)C(3) ) + ( 26*(m)C(1) + (26^2)*(m+1)C(2) + (26^3)*(m+2)C(3) ) )) *n +a(hs+1),
+   (( (28^2)*(m+1)C(2) ) + ( 27*(m)C(1) + (27^2)*(m+1)C(2) )) *n +a(hs+1), 28*(m)C(1) *n +1, 1]
+   & [1, 2+m, …, ∞, …, ((r=1)(28)Σ(26+r)C(r))*(m)C(1) *2n a(hs+1), 1]
+         cannot connect:
+   [1, (28+28-1)C(28)-1, …, a(n/29)=>1]
+         cannot connect and one sphere in between:
+   [1, (756+756-1)C(756)-1, …, a(n/(29+756))=>step, ∞, ∞, …, ∞, ∞, a(n/(29+27))=>1]
+
+Recursion with n-sized field:
+         must connect:
+   [n, n, 2n, …, ∞, …,
+   (( (28^3)*(m+2)C(3) ) + ( 28*(27*(m+1)C(2) + (27^2)*(m+2)C(3)) ) + ( ( 27*(m)C(1) + 26*(m)C(1) + (27^2)*(m+1)C(2) + 27*26*(m+1)C(2) + (27^2)*26*(m+2)C(3) ) + ( 26*(m)C(1) + (26^2)*(m+1)C(2) + (26^3)*(m+2)C(3) ) )) *n^2 -A,
+   (( (28^2)*(m+1)C(2) ) + ( 27*(m)C(1) + (27^2)*(m+1)C(2) )) *n^2 -A, 28*(m)C(1) *n^2 -A, n]
+   & [n, n, 4n, …, ∞, …, ((r=1)(28)Σ(26+r)C(r))*(m)C(1) *n^2 -A, n]
+         can connect:
+   [n, 2n+(mn/29), …, ∞, …,
+   (( (28^3)*(m+2)C(3) ) + ( 28*(27*(m+1)C(2) + (27^2)*(m+2)C(3)) ) + ( ( 27*(m)C(1) + 26*(m)C(1) + (27^2)*(m+1)C(2) + 27*26*(m+1)C(2) + (27^2)*26*(m+2)C(3) ) + ( 26*(m)C(1) + (26^2)*(m+1)C(2) + (26^3)*(m+2)C(3) ) )) *n^2,
+   (( (28^2)*(m+1)C(2) ) + ( 27*(m)C(1) + (27^2)*(m+1)C(2) )) *n^2, 28*(m)C(1) *n^2, n]
+   & [n, 2n+(mn/29), …, ∞, …, ((r=1)(28)Σ(26+r)C(r))*(m)C(1) *n^2, n]
+         cannot connect:
+   [n, ((55)C(28)-1)*(n/29), …, a(n/29)=>n]
+         cannot connect and one sphere in between:
+   [n, ((2*756-1)C(756)-1)*(n/(29+756)), …, a(n/(29+756))=>step, ∞, ∞, …, ∞, ∞, a(n/(29+27))=>n]
+
+ -Rename: (2*28-1)C(28)-1=m[0,2], (2*28*27-1)C(756)-1=m[1,2], (2*28*(27^2)-1)C(20412)-1=m[2,2], …
+
+Repeat with (n^2 or n^n or n^n^…^n=N)-sized fields, for example *n^(aN^x)
+Roll out the f(x)-sized field & the A-sized field
+Rhythmically all summing up to the completely saturated hypersphere-3CLS-structure
+
+   Right Now The I is Echoing In A Hypersphere-3CLSGL-{…, 1, 1, 1, …}
+      Rack em up! Quadra Combo! Wombo Combo! -Grim Reaper
+         R MLG Jukebox TS Multi-Penta -And The Hyper Companion Cube Became God
