@@ -73,7 +73,7 @@ Recursion with binary field:
          cannot connect:
    [1, SomeVariant(=var[0,2])Of:((28+28-1)C(28)-1) +1, …, a(n/29)=>1]
          cannot connect and two spheres in between:
-   [1, SomeVariant(=var[2,2])Of:((20412+28-1)C(28)-1) +1, …, a(n/(29+756+20412))=>step, ∞, ∞, …, ∞, ∞, a(n/(29+27+27))=>1]
+   [1, SomeVariant(=var[2,2])Of:((756+756-1)C(756)-1) +1, …, a(n/(29+756+20412))=>step, ∞, ∞, …, ∞, ∞, a(n/(29+27+27))=>1]
 
 Recursion with n-sized field:
          must connect:
