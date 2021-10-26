@@ -20,7 +20,7 @@ Recursively give cycles numerical characteristics for:
    the orderings of these
    and potentially the previous ¨cycle-type areas¨
 
-Reduce areas of equal characteristics, with the inner as one or a few cycles depending on the size, and the outer as a transitional border
+Reduce areas of equal characteristics, with the inner as a few or a factorized legion of cycles depending on the amount of characteristics, and the outer as a transitional border
 
 Redraw all of this with hyperspheres of backloopage-potential, potentially forged through 3CLSGL,
 where if a sphere is connected to another it changes the probability for another to connect as there is a different backloopage-potential then,
@@ -34,7 +34,7 @@ Revisualize as categories of reprogrammable building block functions, call it in
 
 
 Rationalizing that all spheres in a hypersphere are distributed approximately uniformly through GL{28, 0, 1},
-and assuming one combination when multiple hyperspheres connect on the same sphere, and only one sphere per hypersphere connecting between the same hyperspheres,
+and assuming one combination per unique non-symmertrical hypersphere-structure, and only one sphere per hypersphere connecting between the same hyperspheres,
 with indicating whether more than two hyperspheres [cannot] & [can] connect on the same sphere as such,
 also let n denote spheres: lim(n->∞), let the areal of a cross-section of n be equal to: ((9/8)^(1/3)*(π/2)^(1/3)*(n)^(2/3)) = A,
 let the number of ways a hypersphere can connect to n be equal to:
@@ -92,7 +92,7 @@ Recursion with n-sized field:
    [n, var[2,2] +n-29-756-20412, …, a(n/(29+756+20412))=>step, ∞, ∞, …, ∞, ∞, a(n/(29+27+27))=>n]
 
  -Rename: m[0,2] = (28+28-1)C(28)-1 + (r=2)((28+28-1)C(28)-1)Σ( ((28+28-1)C(28)-1)^2+(28+28-1)C(28)-1 ), m[1,2] = (28+28-1)C(28)-1 + (r=2)((28+28*(27^1)-1)C(28*(27^1))-1)Σ( ((28+28-1)C(28)-1)^2+(28+28-1)C(28)-1 ), m[2,2] = (28+28-1)C(28)-1 + (r=2)((28+28*(27^2)-1)C(28*(27^2))-1)Σ( ((28+28-1)C(28)-1)^2+(28+28-1)C(28)-1 ), …, m[d-2,2] = (28+28-1)C(28)-1 + (r=2)((28+28*(27^(d-2))-1)C(28*(27^(d-2)))-1)Σ( ((28+28-1)C(28)-1)^2+(28+28-1)C(28)-1 ), m[2(3n/4pi)^(1/3)-1,2]. Deep inside we might find more: (28+28-1)C(28)-1 + (r=2)((28+28*(27^(d-1))-1)C(28*(27^(d-1)))-1)Σ( ((28+28-1)C(28)-1)^((28+28-1)C(28)-1)+…+((28+28-1)C(28)-1)^3+((28+28-1)C(28)-1)^2+(28+28-1)C(28)-1 )
-Repeat with (n^2 or n^n or n^n^…^n=N)-sized fields, for example *n^(aN^b)
+Repeat with (n^2 or n^n or n^n^…^n)-sized fields, for example *n^(an^b)
 Roll out the f(x)-sized field & the A-sized field
 Rhythmically all summing up to the completely saturated hypersphere-3CLS-structure
    Right Now The I is Echoing In A Hypersphere-3CLSGL-{…, 1, 1, 1, …}
