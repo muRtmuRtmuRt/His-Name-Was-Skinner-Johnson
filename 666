@@ -34,7 +34,7 @@ Revisualize as categories of reprogrammable building block functions, call it in
 
 
 Rationalizing that all spheres in a hypersphere are distributed approximately uniformly through GL{28, 0, 1},
-and assuming one combination per unique non-symmertrical hypersphere-structure, and only one sphere per hypersphere connecting between the same hyperspheres,
+and assuming one combination when multiple hyperspheres connect on the same sphere, and only one sphere per hypersphere connecting between the same hyperspheres,
 with indicating whether more than two hyperspheres [cannot] & [can] connect on the same sphere as such,
 also let n denote spheres: lim(n->∞), let the areal of a cross-section of n be equal to: ((9/8)^(1/3)*(π/2)^(1/3)*(n)^(2/3)) = A,
 let the number of ways a hypersphere can connect to n be equal to:
